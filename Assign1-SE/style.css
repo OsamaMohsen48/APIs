@@ -1,0 +1,98 @@
+nav{
+	
+	width: 100%;
+	height: 100px;
+	background-color: rgb(92, 105, 224);
+	margin-left: -10px;
+	padding: 0px 50px;
+	color: #FFFFFF;
+	font-size: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	position: fixed;
+	top: 0;
+}
+nav > *{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+nav .title, nav .humIcon{
+	color: #FFFFFF;
+}
+.searchBar{
+	height: 50px;
+	width: 550px;
+	background-color: rgb(255, 255, 255);
+	padding-left: 30px;
+	margin-right:10px;
+    font-size: 15px;
+    border-radius: 15px 0px 0px 15px;
+	border: none;
+	outline: none;
+
+}
+.searchIcon{
+	background-color: #FFFFFF;
+	height: 50px;
+	border-radius: 0px 15px 15px 0px;
+	border: none;
+	width: 60px;
+	border-left: 0.5px solid #adadad;
+	outline: none;
+	padding-right: 2px;
+	font-size: 15px;
+	cursor: pointer;
+	margin-right:400px;
+
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.searchIcon:hover{
+	color: #065FD4;
+	background-color: #D1D3D3;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.info{
+	margin-top: 150px;
+	margin-left: 15%;
+	margin-bottom: 40px;	
+	padding: 15px; 
+	width: 70%;
+	font-size: 20px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: rgba(120, 174, 184, 0.3);
+
+}
+.cityimage{
+	margin-left: 15%;
+	
+}
+/*
+.flexRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	width: 100%;
+	height: fit-content;
+}*/
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+	height: fit-content;
+}
+.topRow{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.ciry img{
+	width: 100%;
+}
